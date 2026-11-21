@@ -1,0 +1,34 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff5f8;
+    background-image:
+        radial-gradient(circle at 18px 18px, rgba(244, 114, 182, 0.28) 3.5px, transparent 4px),
+        radial-gradient(circle at 28px 11px, rgba(255, 255, 255, 0.96) 4.5px, transparent 5px),
+        radial-gradient(circle at 28px 25px, rgba(255, 255, 255, 0.96) 4.5px, transparent 5px),
+        radial-gradient(circle at 8px 11px, rgba(255, 255, 255, 0.96) 4.5px, transparent 5px),
+        radial-gradient(circle at 8px 25px, rgba(255, 255, 255, 0.96) 4.5px, transparent 5px),
+        radial-gradient(circle at 18px 5px, rgba(251, 207, 232, 0.85) 3.5px, transparent 4px),
+        radial-gradient(circle at 18px 31px, rgba(251, 207, 232, 0.85) 3.5px, transparent 4px),
+        radial-gradient(circle at 54px 54px, rgba(236, 72, 153, 0.16) 3px, transparent 3.5px),
+        radial-gradient(circle at 62px 48px, rgba(255, 255, 255, 0.92) 4px, transparent 4.5px),
+        radial-gradient(circle at 62px 60px, rgba(255, 255, 255, 0.92) 4px, transparent 4.5px),
+        radial-gradient(circle at 46px 48px, rgba(255, 255, 255, 0.92) 4px, transparent 4.5px),
+        radial-gradient(circle at 46px 60px, rgba(255, 255, 255, 0.92) 4px, transparent 4.5px);
+    background-size: 76px 76px;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Personalización de scrollbar interno */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #fdf2f8;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #f9a8d4;
+    border-radius: 4px;
+}
